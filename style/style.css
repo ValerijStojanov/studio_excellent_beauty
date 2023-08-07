@@ -315,7 +315,7 @@ main img {
    }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 428px) {
     
     .top {
         display: flex;
