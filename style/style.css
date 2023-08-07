@@ -402,6 +402,7 @@ main img {
 
 
    .lips, .leaves, .coffee {
+    margin-top: 4em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -410,7 +411,7 @@ main img {
 
    .lips img {
     height: 250px;
-    margin: 5em 0em 1em .3em;
+    
    }
 
 }
