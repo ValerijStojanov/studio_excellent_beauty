@@ -392,8 +392,8 @@ main img {
 
 
    .cards {
-    display: flex;
-    flex-wrap: wrap;
+
+    align-items: center;
     margin-top: 5em;
 
    }
@@ -402,17 +402,19 @@ main img {
     margin: 1em;
    }
 
+
    .lips, .leaves, .coffee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: 14px;
+    border: 1px solid red;
    }
 
    .lips img {
-    height: 290px;
+    height: 250px;
     margin: 5em 0em 1em .3em;
    }
 
-   .leaves img, .coffee img {
-    margin-left: 5em;
-   }
 }
 
