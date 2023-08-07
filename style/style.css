@@ -392,8 +392,6 @@ main img {
 
 
    .cards {
-
-    align-items: center;
     margin-top: 5em;
 
    }
@@ -408,7 +406,6 @@ main img {
     flex-wrap: wrap;
     justify-content: center;
     font-size: 14px;
-    border: 1px solid red;
    }
 
    .lips img {
