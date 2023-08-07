@@ -356,7 +356,7 @@ main img {
     }
     
    .content {
-    margin-top: 2em;
+    margin-top: 3.5em;
     display: flex;
     flex-wrap: wrap-reverse;
     gap: 5em;
