@@ -398,9 +398,8 @@ main img {
 
    }
 
-   
    .cards img {
-    margin: 0;
+    margin: 1em;
    }
 
    .lips, .leaves, .coffee {
@@ -413,7 +412,7 @@ main img {
    }
 
    .leaves img, .coffee img {
-    margin: 5em 0em 1em 5em;
+    margin-left: 4.5em;
    }
 }
 
