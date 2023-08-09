@@ -1,0 +1,259 @@
+
+html,body {
+    width: 100%;
+    margin: 0;
+    background-color:azure;
+    overflow-x: hidden;
+}
+
+:root {
+    --font: 'Montserrat', sans-serif;;
+}
+
+.top {
+    display: flex;
+    background: rgb(255,227,250);
+    background: linear-gradient(0deg, rgb(253, 244, 244) 4%, rgb(255, 255, 255) 1%, rgb(255, 255, 255) 100%);
+    height: 30px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top a {
+    margin-left: 20px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: var(--font);
+    font-weight: 0;
+    font-size: 12px;
+    text-decoration: none;
+    transition: color .3s linear;
+    letter-spacing: 2px;
+
+}
+
+.top a:hover {
+    color: #c7c8c3;
+}
+
+
+#pin {
+    width: .8em;
+    margin-left: 20px;
+}
+
+nav {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 5em;
+}
+
+nav li {
+    display: inline;
+    margin-right: 5em;
+    text-align: center;
+    
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 17px;
+    margin: 10px;
+}
+
+#select {
+    padding: 5px;
+    border: 2px solid pink;
+}
+
+main {
+    background: rgb(255,227,250);
+    background: linear-gradient(0deg, rgba(255,227,250,1) 0%, rgba(213,213,213,1) 48%, rgba(249,249,249,1) 100%);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    padding: 20px;
+}
+
+.text {
+    text-align: center;
+    border: 2px solid rgb(231, 226, 226);
+    border-radius: 1%;
+    box-shadow: #c7c8c3;
+    height: max-content;
+    width: 40em;
+    font-family: 'Noto Sans Mro', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#subtitle {
+    font-size: 20px;
+}
+
+#sub_mail, #sub_tel {
+    text-decoration: none;
+    color: black;
+}
+
+main img {
+    margin: 50px 0px 50px 0px;
+    height: 350px;
+    width: 600px;
+    border-radius: 1%;
+}
+
+.footer_first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    padding: 0;
+    background: rgb(255,227,250);
+    background: linear-gradient(0deg, rgba(255,227,250,1) 0%, rgb(255, 255, 255) 48%, rgba(249,249,249,1) 100%);
+
+
+}
+
+.calendar, .present, .call {
+    margin: 2em 0em 2em 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.calendar a, .present a, .call a {
+    margin-left: 1em;
+    font-family: var(--font);
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+.calendar img, .present img, .call img  {
+    margin: 0;
+    height: 40px;
+
+}
+
+
+.footer_second {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15em;
+}
+
+.instagram, .facebook {
+    margin: 2em 0em 2em 0em;
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram a, .facebook a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: var(--font);
+    font-weight: 600;
+}
+
+.instagram img, .facebook img {
+    height: 4em;
+}
+
+@media screen and (max-width: 428px) {
+    
+    .top {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .top a {
+        font-size: 10px;
+    }
+
+    #pin {
+        margin-left: 1em;
+    }
+
+    #logo {
+        margin: 0em 0em 0em 0em;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        display: inline-flex;
+        margin: 0;
+        border: 2px solid rgb(231, 226, 226);
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+    
+   .content {
+    margin-top: 3.5em;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 5em;
+
+   }
+
+   #img_gps {
+    margin-bottom: 0;
+    width: 350px;
+    height: 250px;
+   }
+
+   .text {
+    font-size: 15px;
+    margin-bottom: 2em;
+    border: 2px solid rgb(231, 231, 231);
+   }
+
+   .footer_first {
+    gap: 0em;
+   }
+
+   .footer_second {
+    gap: 3em;
+   }
+
+   .instagram img, .facebook img {
+    height: 2.5em;
+   }
+
+   .instagram a, .facebook a {
+    margin-top: 10px;
+    font-size: 15px;
+   }
+}
