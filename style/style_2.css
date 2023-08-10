@@ -149,20 +149,8 @@ main img {
 }
 
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 568px) {
     
-    .top {
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .top a {
-        font-size: 10px;
-    }
-
-    #pin {
-        margin-left: 1em;
-    }
 
     #logo {
         margin: 0em 0em 0em 0em;
@@ -186,7 +174,7 @@ main img {
     }
 
     nav a {
-        font-size: 13px;
+        font-size: 9px;
     }
     
    .content {
